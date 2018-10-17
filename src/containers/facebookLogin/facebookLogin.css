@@ -1,0 +1,44 @@
+.Home .lander {
+  padding: 145px 0;
+  text-align: center;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.Home .lander p {
+  color: #999;
+}
+
+.Home .lander div {
+  padding-top: 20px;
+}
+.Home .lander div a:first-child {
+  margin-right: 20px;
+}
+
+.btnFacebook {
+  width: 200px;
+  height: 35px;
+  border-radius: 4px;
+  background: #4267b2;
+  color: white;
+  border: 0px transparent;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+
+.btnFacebook:hover {
+  background: #3b5998;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 399px) {
+  .btnFacebook,
+  .btnGoogle {
+    width: 100%;
+  }
+}
